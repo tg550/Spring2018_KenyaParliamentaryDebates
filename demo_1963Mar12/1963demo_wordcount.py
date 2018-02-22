@@ -8,12 +8,12 @@ Created on Sat Feb 17 19:52:57 2018
 
 import pandas as pd
 import glob
-
-
+import re
 
 # a string to record all words
 wordstring =''
-path = "307.txt"
+#path = "/Users/guotiankai/Google Drive/Georgetown/Spring2018_4/RA/Spring2018_KenyaParliamentaryDebates/demo_1963Mar12/307.txt"
+path = "/Users/guotiankai/Google Drive/Georgetown/Spring2018_4/RA/Spring2018_KenyaParliamentaryDebates/demo_1963Mar12/307change.txt"
 
 # read the two files under the folder 1963
 read_files = glob.glob(path)
@@ -24,3 +24,16 @@ for f in read_files:
         wordstring+=str(infile.read())
 
 wordstring = wordstring.lower()
+
+#split to paragraph
+text   = wordstring.split("\\r\\n")
+
+#create and get dictionary
+myDict = dict()
+for line in text:
+  match = re.search('(.+?):(.*)', line)
+  if match: 
+    tag, gene = match.groups()
+    myDict[tag] = gene
+
+print(myDict)
