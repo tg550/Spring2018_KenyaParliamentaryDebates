@@ -12,8 +12,8 @@ import re
 
 # a string to record all words
 wordstring =''
-#path = "/Users/guotiankai/Google Drive/Georgetown/Spring2018_4/RA/Spring2018_KenyaParliamentaryDebates/demo_1963Mar12/307.txt"
-path = "/Users/guotiankai/Google Drive/Georgetown/Spring2018_4/RA/Spring2018_KenyaParliamentaryDebates/demo_1963Mar12/307change.txt"
+path = "/Users/guotiankai/Google Drive/Georgetown/Spring2018_4/RA/Spring2018_KenyaParliamentaryDebates/demo_1963Mar12/307.txt"
+#path = "/Users/guotiankai/Google Drive/Georgetown/Spring2018_4/RA/Spring2018_KenyaParliamentaryDebates/demo_1963Mar12/307change.txt"
 
 # read the two files under the folder 1963
 read_files = glob.glob(path)
@@ -34,6 +34,9 @@ for line in text:
   match = re.search('(.+?):(.*)', line)
   if match: 
     tag, gene = match.groups()
-    myDict[tag] = gene
+    if tag not in myDict:
+        myDict[tag] = gene
+    else:
+        myDict[tag] += gene
 
 print(myDict)
