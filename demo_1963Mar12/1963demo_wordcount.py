@@ -60,7 +60,7 @@ def wordcount_topic(Dict):
     tribe=re.compile("tribe")
     
     headers = ['Speaker','land', 'infrastructure', 'road[s]', 
-               'school[s]', 'hospital[s]', 'disease', 'corruption', 'economy', 'tribe']
+               'school[s]', 'hospital[s]', 'disease', 'corruption', 'economy', 'tribe', 'word_count']
     
     # Write headers into output CSV file
     with open("wordcount(topic).csv", "w", newline = '', encoding='utf-8') as f:
@@ -84,7 +84,10 @@ def wordcount_topic(Dict):
         corruption_count= str(len(corruption.findall(wordstring)))
         economy_count = str(len(economy.findall(wordstring)))
         tribe_count=str(len(tribe.findall(wordstring)))
-            
+        tokens=wordstring.split()
+        n_tokens=len(tokens)
+        word_count=n_tokens
+        
         # Write the word counts into a CSV file
         with open("wordcount(topic).csv", "a", newline = '', encoding = 'utf-8') as f:
             writer = csv.DictWriter(f, fieldnames = headers)
@@ -97,7 +100,8 @@ def wordcount_topic(Dict):
                              'disease':disease_count,
                              'corruption':corruption_count,
                              'economy':economy_count,
-                             'tribe':tribe_count})
+                             'tribe':tribe_count,
+                             'word_count':word_count})
     
 
 
@@ -111,3 +115,6 @@ def main():
         
 if __name__ == "__main__":   
     main()
+
+
+
