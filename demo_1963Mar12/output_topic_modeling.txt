@@ -1,0 +1,34 @@
+Topics in LDA model: 
+
+Topic #0:young make idea able drinking business particularly allowing saying matter expect said labour kibera manner early board interested force housed report accepting job answer newspaper away day satisfy burn stressed spread possible dead offence doing secretary good idle better going
+======================================================================
+
+Topic #1:sir ministry country anybody land support correct home chief confused timing scheme importance statement allowance exactly spread possible especially secretary fully drinking business cent waste cattle excessive group education fort important kenya area force going prepared everybody probably kind stressed
+======================================================================
+
+Topic #2:speaker really good lot economic district need agree examined council indication interested cost child labour person just job bring mombasa told bad legal thankful saying young require satisfy cent country difficulty idle burn matter getting trying dead make minister britain
+======================================================================
+
+Topic #3:government people hon question reply bad got party sent advising glad word samburu difficulty earlier tax child timing mover soon start indication importance newspaper mean wonder fort look cent right case extra place point come bring early allowance particularly number
+======================================================================
+
+Topic #4:member like think feel mover going given did doctor prepared council right deal person kind using allowed accepts accept officer welcome turkana teaching particular mr burn settlement country job exactly result extra district wanting pay confused good happen question point
+======================================================================
+
+Topic #5:mr time point doe number leave reasonable public unnecessary important answer people minister country consider come short road make completely taken good low group accepts soon statement early member interrupt duty away accept bring term x92clock consulted prepared possible newspaper
+======================================================================
+
+Topic #6:parliamentary know order start student come sort waste told long advice look offence let cent left extra independent confused right soon term house make using housed labour like country district statement instead manner drinking thankful taken road feel arising paid
+======================================================================
+
+Topic #7:settlement child nationalization talking education mean chance cost encourage tax legal especially indication thankful x92clock spent term duty getting transportation result better happen hall fort wonder low speech note wanting medical drink party overseas time secretary satisfy cent accepts question
+======================================================================
+
+Topic #8:minister tell house say man everybody wish bring short britain gone police place independent turkana speaker statement parliamentary doctor excessive using right kenya business training thank said expect job thinking district planning completely word talking difficulty officer willing drink accepts
+======================================================================
+
+Topic #9:motion thank drink money want just school consider try doing mombasa area fully read help taken cattle overseas case thinking interrupt completely paid consulted willing probably spent answer labour pay wonder good house cost better committing x92clock word force day
+======================================================================
+
+Topic #10:secretary thing kenya trying private work planning opposition instead committing excessive pay arising group sufficient road require idle training soon difficulty given getting interested spread cost x92clock order fully exactly manner advice feel day public help important tell like timing
+======================================================================
