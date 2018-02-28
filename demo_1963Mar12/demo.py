@@ -110,7 +110,7 @@ def wordcount_topic(Dict):
 
 ### topic modeling ###
 #Latent Dirichlet allocation (LDA) is a topic model that generates topics based on word frequency from a set of documents. LDA is particularly useful for finding reasonably accurate mixtures of topics within a given document set.
-#
+#Cleaning and Preprocessing
 # Storing the first text element as a string
 first_text = myDict['mr. nthenge']   
 print(first_text)
